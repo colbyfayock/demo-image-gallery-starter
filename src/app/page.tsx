@@ -21,8 +21,8 @@ function Home() {
                 <p className="mb-1 text-md font-bold leading-tight text-neutral-800 dark:text-neutral-50">
                   { product.name }
                 </p>
-                <p className="text-sm text-neutral-600 dark:text-neutral-200">
-                  { product.link }
+                <p className="text-xs text-neutral-500 dark:text-neutral-400">
+                  <a href={product.link}>{ product.link }</a>
                 </p>
               </div>
             </li>
